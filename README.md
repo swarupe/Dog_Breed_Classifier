@@ -23,9 +23,8 @@ Along with exploring state-of-the-art CNN models for classification  and localiz
 * Download the [human_dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/lfw.zip)
 
 
-## RESULTS
-
-# CNN Structures (Building a model on my own)
+# RESULTS
+### CNN Structures (Building a model on my own)
 
   (conv1): Conv2d(3, 16, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1))
   
@@ -47,9 +46,7 @@ Along with exploring state-of-the-art CNN models for classification  and localiz
 
 
 
-
-
-# Transfer Learning
+### Transfer Learning
 
 Used **VGG19** for transfer learnings because it is one of the basic model and produces better accuracy.
 
@@ -57,7 +54,7 @@ Used **VGG19** for transfer learnings because it is one of the basic model and p
 
 Accuracy has been achieved up to **79%** only with **5 epochs**
 
-## Conclusion
+# Conclusion
 
 Transfer learning is one of the better solution to train a model with less dataset. Using transfer learning we can develop a model with less time and produces better performace.
 
